@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @RestController
@@ -19,6 +21,11 @@ public class ReportingserviceappApplication {
 		logger.warn("this is a warn message");
 		logger.error("this is a error message");
 		SpringApplication.run(ReportingserviceappApplication.class, args);
+	}
+
+	@Bean
+	public RestTemplate getRestTemplate() {
+		return new RestTemplate();
 	}
 
 	@RequestMapping(value = "/")
