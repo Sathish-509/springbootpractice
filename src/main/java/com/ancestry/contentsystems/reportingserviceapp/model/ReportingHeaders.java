@@ -1,4 +1,4 @@
-package com.ancestry.contentsystems.reportingserviceapp.model;
+package com.sringbootpractice.model;
 
 public class ReportingHeaders {
     private String id;
