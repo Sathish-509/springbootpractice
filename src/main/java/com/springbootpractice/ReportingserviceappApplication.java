@@ -1,4 +1,4 @@
-package com.ancestry.contentsystems.reportingserviceapp;
+package com.springbootpractice;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;

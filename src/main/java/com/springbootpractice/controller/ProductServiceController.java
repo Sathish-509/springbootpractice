@@ -1,4 +1,4 @@
-package com.ancestry.contentsystems.reportingserviceapp.controller;
+package com.springbootpractice.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ancestry.contentsystems.reportingserviceapp.model.Product;
-import com.ancestry.contentsystems.reportingserviceapp.service.ProductService;
+import com.springbootpractice.model.Product;
+import com.springbootpractice.service.ProductService;
 
 @RestController
 public class ProductServiceController {

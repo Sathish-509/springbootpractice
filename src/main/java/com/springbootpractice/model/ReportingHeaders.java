@@ -1,4 +1,4 @@
-package com.sringbootpractice.model;
+package com.springbootpractice.model;
 
 public class ReportingHeaders {
     private String id;

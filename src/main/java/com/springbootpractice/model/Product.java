@@ -1,4 +1,4 @@
-package com.ancestry.contentsystems.reportingserviceapp.model;
+package com.springbootpractice.model;
 
 public class Product {
     private String id;

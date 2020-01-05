@@ -1,4 +1,4 @@
-package com.ancestry.contentsystems.reportingserviceapp.controller;
+package com.springbootpractice.controller;
 
 import java.util.HashMap;
 import java.util.Map;

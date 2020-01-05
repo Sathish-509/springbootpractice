@@ -1,10 +1,11 @@
-package com.ancestry.contentsystems.reportingserviceapp.service;
+package com.springbootpractice.service;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+
+import com.springbootpractice.model.Product;
 import org.springframework.stereotype.Service;
-import com.ancestry.contentsystems.reportingserviceapp.model.Product;
 
 @Service
 public class ProductServiceImpl implements ProductService {

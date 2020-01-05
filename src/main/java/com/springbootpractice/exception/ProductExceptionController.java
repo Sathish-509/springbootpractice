@@ -1,4 +1,4 @@
-package com.ancestry.contentsystems.reportingserviceapp.exception;
+package com.springbootpractice.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

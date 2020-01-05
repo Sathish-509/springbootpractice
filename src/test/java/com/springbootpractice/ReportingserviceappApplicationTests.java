@@ -1,4 +1,4 @@
-package com.ancestry.contentsystems.reportingserviceapp;
+package com.springbootpractice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

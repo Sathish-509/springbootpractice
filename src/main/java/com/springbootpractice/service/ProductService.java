@@ -1,7 +1,7 @@
-package com.ancestry.contentsystems.reportingserviceapp.service;
+package com.springbootpractice.service;
 
 import java.util.Collection;
-import com.ancestry.contentsystems.reportingserviceapp.model.Product;
+import com.springbootpractice.model.Product;
 
 public interface ProductService {
     public abstract void createProduct(Product product);
